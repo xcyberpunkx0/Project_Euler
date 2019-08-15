@@ -14,11 +14,8 @@ int i,j;
             l=l*(s[j]-'0'); }
 
         if(l>=m){
-            m=l;
-    }
-
-
-        }
+            m=l;  }
+  }
     cout<<m;
 
 return 0;
