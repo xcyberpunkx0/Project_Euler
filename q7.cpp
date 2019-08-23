@@ -17,7 +17,7 @@ int main(){
 while (1){
         d=check(n);
     if(d==1){c++;}
-    if(c==10001){break;cout<<n;}
+    if(c==10001){cout<<n; break;}
     n++;
     d=0;
 }
