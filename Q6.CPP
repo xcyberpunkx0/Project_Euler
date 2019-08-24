@@ -1,20 +1,17 @@
-#include <iostream>
-#include <math.h>
+#include<iostream>
+#include<math.h>
 using namespace std;
-int main(void){
-    
-    int i,s=0,l=0,m;
-    
-    for(i=1;i<=100;i++){
-        s+=pow(i,2);
-        l+=i;
-    }
-    l=pow(l,2);
-    m=l-s;
-    cout<<"Sum of Squares of First 100 Natural Numbers : "<<s<<endl;
-    cout<<"Square of sum of First 100 Natural Numbers : "<<l<<endl;
-    cout<<"Difference in sum of square and square of sum : "<<m;
-    
-    
-    return 0;
+
+int main(){
+   long n=100,m,a,s;
+
+            a =(n * (n + 1) * (2*n + 1) )/ 6;  //Sum of Squares of 100 natural numbers
+            m = ((n * (n + 1)) / 2); //Sum of first 100 Natural Numbers
+            s = m*m; //Square of Sum of first 100 natural numbers
+            
+    cout<<"Difference between the Sum of the Squares of the 1st 100 natural numbers and the square of the sum is : "<<s-m;
+
+
+return 0;
+
 }
