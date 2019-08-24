@@ -1,14 +1,20 @@
-#include<iostream.h>
-#include<conio.h>
+#include <iostream>
+#include<math.h>
+using namespace std;
 
-void main(){ clrscr();
-long i,m=600851475143,j,s;
+int main()
+{
+    long long i;
+    long long n=600851475143L;
 
-	for(i=2;i<m;i++){
-	     if(m%i==0){
-		     for(j=2;j<i;j++){
-			if(i%j!=0){ s=i; }  } } }
-	     cout<<"Largest Prime Factor : "<<s;
+        for(i=2;i<=sqrt(n);i++) {
+            while(n%i==0){
+                n/=i;
+                        }
+                                }
 
-getch();
+
+       cout<<"Largest prime factor : "<< n;
+
+return 0;
 }
