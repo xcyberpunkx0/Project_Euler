@@ -12,7 +12,7 @@ int i,j;
   
       for(i=0;i<s.length();i++){
               long long int l=1;
-                      for(j=i;j<13;j++){
+                      for(j=i;j<i+13;j++){
                               l=l*(s[j]-'0');      }
 
         
