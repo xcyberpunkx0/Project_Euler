@@ -1,5 +1,7 @@
 #include<iostream.h>
 
+using namespace std;
+
 int main(){ 
 	
 	    long a=1,b=2,c,s=0;	
