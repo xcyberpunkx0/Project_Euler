@@ -22,3 +22,8 @@ int main()
     }
 
 cout<<lcm;
+
+
+
+return 0;
+}
