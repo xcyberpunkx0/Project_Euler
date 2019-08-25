@@ -1,28 +1,28 @@
 #include<iostream>
 #include<math.h>
+
 using namespace std;
 
+int check(long long n){
+        if((n % 2 == 0 )){  return 0;         }
+                for(long long i=3;i<=sqrt(n);i++){
+                        if(n%i==0){return 0; }
+                         }
+        return 1;
+}
+
 int main(){
-unsigned long i=3,f=1,j,s=0;
-while(i<=200000){
+    long long c=2000000,s=2;
+            for(long long i=3;i<=c;i+=2){
+                if(check(i)){s+=i; }
 
 
-        for(j=3;j<sqrt(i);j+=2){
-                if(i%j==0){f=0;}
-                                    }
+                        }
 
-        if(f==1){ s=s+i+2;      }
-
-            i+=2;
+            cout<<s;
 
 
-            f=1;
+return 0;
 
-        }
-
-                cout<<s;
-
-    
-  return 0;
 
 }
