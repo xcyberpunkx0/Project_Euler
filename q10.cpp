@@ -18,9 +18,11 @@ while(i<=200000){
 
             f=1;
 
-}
+        }
 
-cout<<s;
-return 0;
+                cout<<s;
+
+    
+  return 0;
 
 }
