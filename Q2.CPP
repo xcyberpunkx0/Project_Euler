@@ -18,7 +18,7 @@ int main(){
 		   }
 
 
-	    cout<<"Sum of Even valued Fibbonaci Sequence : "<<s;
+	    cout<<"Sum of Even valued Fibbonaci Sequence : "<<s+2;
 
 return 0;
 }
