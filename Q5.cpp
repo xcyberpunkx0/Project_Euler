@@ -10,15 +10,14 @@ int main()
                     if(a>b) {   lcm=a;            }
                         else{    lcm=b;         }
 
-        while(1){
-            if(lcm%a==0&&lcm%b==0){
+        while(lcm%a==0&&lcm%b==0){
+            
 
                 a=lcm;
-                break;
-            }
+               
             lcm++;
 
-        }
+        } 
     }
 
 cout<<lcm;
