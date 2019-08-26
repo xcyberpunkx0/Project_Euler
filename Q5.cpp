@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int lcm=0,a=1,b=20;
+    int lcm=0,a=1,b;
 
     for(int i=1;i<=20;i++){
             int b=i;
