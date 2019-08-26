@@ -13,8 +13,7 @@ int main(){
 	    		c=a+b;
 		    	a=b;
 	    		b=c;
-	    		    if(c%2==0){ s+=c; } 
-	    			else{ break; }
+	    		    if(c%2==0){ s+=c; }
 		   }
 
 
