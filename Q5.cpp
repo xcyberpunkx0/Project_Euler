@@ -16,7 +16,7 @@ int main()
                 a=lcm;
                
             lcm++;
-          break;
+         
 
         } 
     }
