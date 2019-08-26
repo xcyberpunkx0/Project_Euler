@@ -5,7 +5,7 @@ using namespace std;
 
 int check(long long n){
         if((n % 2 == 0 )){  return 0;         }
-                for(long long i=3;i<=sqrt(n);i++){
+                for(long long i=3;i<=sqrt(n);i+=2){
                         if(n%i==0){return 0; }
                          }
         return 1;
