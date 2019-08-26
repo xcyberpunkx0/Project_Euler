@@ -4,7 +4,7 @@ int main()
 {
     int lcm=0,a=1,b;
 
-    for(int i=1;i<=20;i++){
+    for(int i=11;i<=20;i++){
             int b=i;
 
                     if(a>b) {   lcm=a;            }
