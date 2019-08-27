@@ -1,30 +1,43 @@
-#include <iostream>
+#include<iostream>
+
 using namespace std;
-int main()
-{
-    int lcm=0,a=1,j=2,t;
 
-    for(int i=11;i<=20;i++){
-            int b=i;
+int lcm(long,long);
+int hcf(long,long);
 
-                lcm=(a>b)?a:b;
-                t=lcm;
+int lcm(long x,long y){
 
-        while(lcm%a!=0 || lcm%b!=0)
-            {  lcm=t*j;
-                j++;
+         long lcm;
+         lcm=(x*y)/hcf(x,y);
+
+         return lcm;
+}
 
 
+int hcf(long x,long y){
+    
+         while(x!=y){
+            if(x>y){    x=x-y;      }
+            else { y=y-x;}  }
+
+        }
 
 
 
 
-        }  a=lcm;   j=2;
-    }
 
-cout<<lcm;
+int main(){
+
+long a=1;
+
+for(long i=11;i<=20;i++){
+        a=lcm(a,i);
 
 
+}
+
+cout<<"LCM "<<a;
 
 return 0;
 }
+
